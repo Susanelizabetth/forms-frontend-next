@@ -58,6 +58,14 @@ export default function Home() {
         <title>DICOMES</title>
         <link rel='icon' href='/utp.jpg'/>
       </Head>
+      <div className='container'>
+        <div class=" box has-background-grey-light">
+          <p class="has-text-justified">La Dirección de Comunicación Estratégica (DICOMES) se dedica al manejo de la Proyección Institucional e Imagen Corporativa de la Institución. Está conformada por el Departamento de Comunicación e Imagen, Departamento de Producción Gráfica y el Departamento de Protocolo, Ceremonial y Eventos. </p>
+          <div class="has-text-centered">
+            <button class="button is-link is-rounded mt-4" to="/form">Llenar Formulario</button>
+          </div>
+        </div>
+      </div>
       <div className={styles.App}>
       <h1 className='title is-2 is-spaced has-text-danger'>formulario</h1>
       <div className='container'>

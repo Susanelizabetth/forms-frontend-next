@@ -1,13 +1,16 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import styles from '../styles/Home.module.css'
+
 function NavBar({ formData }) {
     return(
-        <nav class="navbar is-transparent">
-            <div class="navbar-brand">
+        <nav class="navbar is-transparent is-fixed-top">
+            <div class="navbar-brand pl-6 py-2">
                 
                     <Image src="/utp.jpg"
                            width={70}
-                           height={70}/>
+                           height={70}
+                           className={styles.imagen}/>
                     <a class="navbar-item title is-3">DICOMES</a>
               
                 
@@ -21,7 +24,7 @@ function NavBar({ formData }) {
                     </Link>
                     
                     <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link" href="https://bulma.io/documentation/overview/start/">
+                        <a class="navbar-link">
                         Formularios de Servicios
                         </a>
                         <div class="navbar-dropdown is-boxed">

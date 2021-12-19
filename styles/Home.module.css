@@ -5,3 +5,7 @@
   display: flex;
   flex-direction: column;
 }
+
+.imagen{
+  padding: 6px 0 6px 13px;
+}

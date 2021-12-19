@@ -6,5 +6,9 @@ export const LinkData = [
     {
         name: "Protocolo",
         path: "/protocolo"
+    },
+    {
+        name: "TV Digital",
+        path: "/tv_digital"
     }
 ]
